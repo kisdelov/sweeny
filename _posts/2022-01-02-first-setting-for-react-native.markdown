@@ -1,8 +1,15 @@
 ---
 layout: single
-title: "First setting for React Native"
+title: "React Native 1"
 date: 2022-01-02 15:20:15 +0900
-categories: ReactNative
+categories: React_Native
+excerpt: "First setting for React Native"
+header:
+  overlay_color: "#333"
+  # og_image: /assets/images/blogBlank.png
+  # image: /assets/images/blogBlank.png
+  # image_description: "A description of the image"
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 RN(으)로  처음 어플을 만들기로 결정하고 나서 첫 세팅을 하기 너무 어려웠다. React를 먼저 접한 후 였기 때문에 껌이라고 생각한 것은 오산이었다. 네이티브 설정까지 해야했기 때문이다. 그래서 언젠가는 다시 설정해야할 것이기 때문에 기록해둔다.

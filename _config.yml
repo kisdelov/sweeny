@@ -27,7 +27,7 @@ repository: "kisdelov/sweeny"
 teaser: "/assets/images/blogBlank.png"
 logo: "/assets/images/blogLogo.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs: true # true, false (default)
 words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -281,9 +281,14 @@ defaults:
       path: ""
       type: posts
     values:
+      sidebar:
+        nav: "docs"
       layout: single
+      toc: true
+      toc_sticky: true
       author_profile: true
       read_time: true
+      show_date: true
       comments: # true
-      share: true
+      # share: true
       related: true
