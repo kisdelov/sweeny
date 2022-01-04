@@ -2,7 +2,6 @@
 layout: single
 title: "React Native 2"
 categories: React_Native
-date: 2022-01-05 22:45:00 +0900
 excerpt: "React Navigation setting and Login"
 header:
   overlay_color: "#555"
@@ -13,7 +12,6 @@ header:
 ---
 
 어플을 기획하고 페이지를 기획하고 이제 실행하면 단계에서 설정도 마무리됐고, 가장 먼저 해야했던 것은 Navigation을 세팅해야했다. 그래야 여러 페이지를 (싸)돌아다니면서 열심히 활동하지 않겠나. 그러면서 생각해 봐야하는 것은 로그인 쪽이었다. 서버와 통신하면서 회원가입, 로그인이 가능해야 했다.
-
 
 ## Navigation setting
 

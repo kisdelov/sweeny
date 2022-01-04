@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "React Native 1"
-date: 2022-01-02 15:20:15 +0900
 categories: React_Native
 excerpt: "First setting for React Native"
 header:
@@ -15,7 +14,6 @@ header:
 RN(으)로  처음 어플을 만들기로 결정하고 나서 첫 세팅을 하기 너무 어려웠다. React를 먼저 접한 후 였기 때문에 껌이라고 생각한 것은 오산이었다. 네이티브 설정까지 해야했기 때문이다. 그래서 언젠가는 다시 설정해야할 것이기 때문에 기록해둔다.
 
 Mac을 기반으로 진행했기 때문에 윈도우 설명은 나도 모른다.
-
 
 ## 개발 환경 구축
 
