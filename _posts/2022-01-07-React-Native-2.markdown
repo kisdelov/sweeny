@@ -9,6 +9,7 @@ header:
   # image: /assets/images/blogBlank.png
   # image_description: "A description of the image"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+typora-root-url: ../
 ---
 
 어플을 기획하고 페이지를 기획하고 이제 실행하면 단계에서 설정도 마무리됐고, 가장 먼저 해야했던 것은 Navigation을 세팅해야했다. 그래야 여러 페이지를 (싸)돌아다니면서 열심히 활동하지 않겠나. 그러면서 생각해 봐야하는 것은 로그인 쪽이었다. 서버와 통신하면서 회원가입, 로그인이 가능해야 했다.
@@ -75,9 +76,9 @@ export default function App() {
 
 잡소리는 많을 수록 안좋으니까, 바로 시작해보자.
 
-![login_screen](sweeny/assets/images/login_screen.png){: width="300" }{: .center}
+![login_screen](/assets/images/login_screen.png){: width="300" }{: .center}
 
-우리는 어플 켜자마자 로그인 화면을 마주한다. 물론 로그인없이 바로 게시글이 보이게 할 순 있는데, 싫으니까 로그인하게 하자. 애플은 소셜로그인을 넣으려면 애플 계정으로 로그인 할 수 있어야한다. 그러니까 일단 첫 시작은 소셜로그인이 없이 시작했다.
+우리는 어플 켜자마자 로그인 화면을 마주한다. 물론 로그인없이 바로 게시글이 보이게 할 순 있는데, 싫으니까 로그인하게x 하자. 애플은 소셜로그인을 넣으려면 애플 계정으로 로그인 할 수 있어야한다. 그러니까 일단 첫 시작은 소셜로그인이 없이 시작했다.
 
 이 사진에서 알 수 있는 것은 3개의 하위 컴포넌트가 존재한다는 것이다. 뭐 따로 이름 붙이면 아래와 같은 구조를 갖는다.
 
