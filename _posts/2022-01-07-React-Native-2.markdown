@@ -74,19 +74,9 @@ export default function App() {
 
 잡소리는 많을 수록 안좋으니까, 바로 시작해보자.
 
-![login_screen](/sweeny/assets/images/login_screen.png){: width="300" }{: .center}
+<!-- 이미지 업로드 예시 -->
+<!-- ![login_screen](/sweeny/assets/images/login_screen.png){: width="300" }{: .center} -->
 
-우리는 어플 켜자마자 로그인 화면을 마주한다. 물론 로그인없이 바로 게시글이 보이게 할 순 있는데, 싫으니까 로그인하게x 하자. 애플은 소셜로그인을 넣으려면 애플 계정으로 로그인 할 수 있어야한다. 그러니까 일단 첫 시작은 소셜로그인이 없이 시작했다.
-
-이 사진에서 알 수 있는 것은 3개의 하위 컴포넌트가 존재한다는 것이다. 뭐 따로 이름 붙이면 아래와 같은 구조를 갖는다.
-
-```bash
-Auth
-  |---SignUp
-  |---Login
-  |---PasswordReset
-```
-
-이 게시글에서 살펴볼 부분은 SignUp이다. 사실 나머지는 회원가입만 되면 만사천리니까 빡세게 회원가입 시켜야한다.
+이 게시물 부터는 아무래도, 새로이 프로젝트를 만들고 예시를 만들어보면서 하는 것이 나을 것 같기에, 처음 시도해보는 typescript 등 새로운 것을 많이 넣어볼 예정이다.
 
 ---
