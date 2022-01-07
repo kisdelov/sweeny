@@ -75,7 +75,7 @@ export default function App() {
 
 잡소리는 많을 수록 안좋으니까, 바로 시작해보자.
 
-![맨_처음+_로그인_화면](/assets/images/login_screen.png){: width="300" }{: .center}
+![login_screen](/assets/images/login_screen.png){: width="300" }{: .center}
 
 우리는 어플 켜자마자 로그인 화면을 마주한다. 물론 로그인없이 바로 게시글이 보이게 할 순 있는데, 싫으니까 로그인하게 하자. 애플은 소셜로그인을 넣으려면 애플 계정으로 로그인 할 수 있어야한다. 그러니까 일단 첫 시작은 소셜로그인이 없이 시작했다.
 
