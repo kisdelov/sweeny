@@ -4,9 +4,8 @@ title: "React Native 2"
 categories: React_Native
 excerpt: "React Navigation setting and Login"
 header:
-  overlay_color: "#555"
+  image: /assets/images/empty_post_header.png
   # og_image: /assets/images/blogBlank.png
-  # image: /assets/images/blogBlank.png
   # image_description: "A description of the image"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 typora-root-url: ../

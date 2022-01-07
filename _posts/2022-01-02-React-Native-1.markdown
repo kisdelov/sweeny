@@ -4,9 +4,9 @@ title: "React Native 1"
 categories: React_Native
 excerpt: "First setting for React Native"
 header:
-  overlay_color: "#555"
+  # overlay_color: "#555"
   # og_image: /assets/images/blogBlank.png
-  # image: /assets/images/blogBlank.png
+  image: /assets/images/empty_post_header.png
   # image_description: "A description of the image"
   # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
