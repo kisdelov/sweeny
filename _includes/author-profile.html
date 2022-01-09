@@ -25,6 +25,12 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
+      <li>
+        <a href="https://wakatime.com/@db22357a-e0ec-4398-a119-424dd8c352be"><img
+            src="https://wakatime.com/badge/user/db22357a-e0ec-4398-a119-424dd8c352be.svg"
+            alt="Total time coded since Aug 26 2020" /></a>
+      </li>
+
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.location }}</span>
